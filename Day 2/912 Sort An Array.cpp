@@ -21,6 +21,7 @@ public:
         while(j <= r) tmp[k++] = nums[j++]; 
         for(i = 0; i < k; i++) nums[l + i] = tmp[i];
     }
+	
 	// mergeSort(nums, 0, nums.size() - 1);
     void mergeSort(vector<int>& nums, int l, int r){
         if(l >= r) return;
